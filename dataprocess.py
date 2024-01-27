@@ -18,14 +18,14 @@ import math
 #from pytorch_pretrained import BertModel, BertTokenizer
 
 
-#train model
+#train Word2vec model
 '''
-sentences = word2vec.Text8Corpus('D:/LSH/毕业/word2vec/dataset_all.txt')
+sentences = word2vec.Text8Corpus('/dataset_all.txt')
 model = word2vec.Word2Vec(sentences)
-model.save('D:/LSH/毕业/word2vec/dataset_all.model')
-sentences = word2vec.Text8Corpus('D:/LSH/毕业/word2vec/dataset12-14.txt')
+model.save('/dataset_all.model')
+sentences = word2vec.Text8Corpus('/dataset11-13.txt')
 model = word2vec.Word2Vec(sentences)
-model.save('D:/LSH/毕业/word2vec/dataset12-14.model')
+model.save('/dataset11-13.model')
 '''
 
 #model1=Word2Vec.load('D:/LSH/毕业/word2vec/dataset.model')
